@@ -1,0 +1,247 @@
+11:35:21.147 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': e:\Universidad_2025\Módulo4\automationKarate\src\test\java\apitests\reqres
+11:35:22.172 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:35:22.192 [main] DEBUG com.intuit.karate.Suite - waiting for 6 features to complete
+11:35:24.088 [pool-1-thread-3] INFO  com.intuit.karate - karate.env property was: null 
+11:35:24.139 [pool-1-thread-4] INFO  com.intuit.karate - karate.env property was: null 
+11:35:24.144 [pool-1-thread-1] INFO  com.intuit.karate - karate.env property was: null 
+11:35:24.150 [pool-1-thread-5] INFO  com.intuit.karate - karate.env property was: null 
+11:35:24.159 [pool-1-thread-2] INFO  com.intuit.karate - karate.env property was: null 
+11:35:25.616 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/2
+1 > Content-Type: application/json; charset=UTF-8
+1 > x-api-key: reqres-free-v1
+1 > Content-Length: 37
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Marta","job":"Ingeniera QA"}
+
+11:35:25.616 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > x-api-key: reqres-free-v1
+1 > Content-Length: 50
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
+1 > Accept-Encoding: gzip,deflate
+{"email":"eve.holt@reqres.in","password":"pistol"}
+
+11:35:25.616 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > x-api-key: reqres-free-v1
+1 > Content-Length: 27
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
+1 > Accept-Encoding: gzip,deflate
+{"email":"raisa@gmail.com"}
+
+11:35:25.616 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/unknown?page=1
+1 > Content-Type: application/json
+1 > x-api-key: reqres-free-v1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:35:25.616 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/unknown/2
+1 > Content-Type: application/json
+1 > x-api-key: reqres-free-v1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:35:26.537 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 912
+1 < 200
+1 < Date: Fri, 18 Jul 2025 15:35:06 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"4c-1Ch16sLqYiMz8RMjD34jg3vIZQY"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Ratelimit-Limit: 100
+1 < Ratelimit-Policy: 100;w=60
+1 < Ratelimit-Remaining: 98
+1 < Ratelimit-Reset: 60
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=SewMaAxZQ%2FGbJ%2FtkDZv3hW9fwMhnBe9XAedhZOtajD0%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1752852906"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=SewMaAxZQ%2FGbJ%2FtkDZv3hW9fwMhnBe9XAedhZOtajD0%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1752852906"
+1 < Via: 1.1 heroku-router
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-Request-Id: 930d604e-7c78-a2ea-93c8-b9fe0195be54
+1 < X-Xss-Protection: 1; mode=block
+1 < CF-Cache-Status: DYNAMIC
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 96130c06dcdb1eb6-EZE
+1 < server-timing: cfL4;desc="?proto=TCP&rtt=99567&min_rtt=97449&rtt_var=40780&sent=7&recv=6&lost=0&retrans=0&sent_bytes=3105&recv_bytes=784&delivery_rate=37029&cwnd=252&unsent_bytes=0&cid=8b32f4c1824f9e2b&ts=454&x=0"
+{"name":"Marta","job":"Ingeniera QA","updatedAt":"2025-07-18T15:35:06.187Z"}
+
+11:35:26.537 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 917
+1 < 200
+1 < Date: Fri, 18 Jul 2025 15:35:06 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1752416261&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2F%2BZfVRzKAhGk81MRJu76uhYorwimMA8Ko7coIrBA1M4%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1752416261&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2F%2BZfVRzKAhGk81MRJu76uhYorwimMA8Ko7coIrBA1M4%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < Access-Control-Allow-Origin: *
+1 < X-Request-Id: 0bf2e5c0-c4ab-4390-89cd-624647209b66
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-Xss-Protection: 1; mode=block
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Ratelimit-Policy: 100;w=60
+1 < Ratelimit-Limit: 100
+1 < Ratelimit-Remaining: 94
+1 < Ratelimit-Reset: 3
+1 < Etag: W/"122-EJoELj/0trWDxXZhKN3eWEbbcBA"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 3935
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 96130c06d8388e5b-EZE
+1 < server-timing: cfL4;desc="?proto=TCP&rtt=89084&min_rtt=85485&rtt_var=39256&sent=7&recv=6&lost=0&retrans=0&sent_bytes=3106&recv_bytes=714&delivery_rate=37065&cwnd=252&unsent_bytes=0&cid=e989469a369bb01d&ts=240&x=0"
+{"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Tired of writing endless social media content? Let Content Caddy generate it for you."}}
+
+11:35:26.582 [pool-1-thread-5] INFO  com.intuit.karate - karate.env property was: null 
+11:35:26.597 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?delay=3
+1 > Content-Type: application/json
+1 > x-api-key: reqres-free-v1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.27)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:35:26.806 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1187
+1 < 400
+1 < Date: Fri, 18 Jul 2025 15:35:06 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 28
+1 < Connection: keep-alive
+1 < CF-RAY: 96130c06dd9183ea-EZE
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Ratelimit-Limit: 100
+1 < Ratelimit-Policy: 100;w=60
+1 < Ratelimit-Remaining: 96
+1 < Ratelimit-Reset: 60
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=SewMaAxZQ%2FGbJ%2FtkDZv3hW9fwMhnBe9XAedhZOtajD0%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1752852906"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=SewMaAxZQ%2FGbJ%2FtkDZv3hW9fwMhnBe9XAedhZOtajD0%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1752852906"
+1 < Via: 1.1 heroku-router
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-Request-Id: f66988d3-3b74-2c24-93d3-30fad81d1e68
+1 < X-Xss-Protection: 1; mode=block
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < server-timing: cfL4;desc="?proto=TCP&rtt=89597&min_rtt=85978&rtt_var=39480&sent=7&recv=6&lost=0&retrans=0&sent_bytes=3106&recv_bytes=776&delivery_rate=36855&cwnd=252&unsent_bytes=0&cid=e04451e8102d1a12&ts=731&x=0"
+{"error":"Missing password"}
+
+11:35:26.992 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1374
+1 < 200
+1 < Date: Fri, 18 Jul 2025 15:35:06 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2fb-zJ/iiAzm4zf7SruyfEtNo0xEDoY"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Ratelimit-Limit: 100
+1 < Ratelimit-Policy: 100;w=60
+1 < Ratelimit-Remaining: 90
+1 < Ratelimit-Reset: 60
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=sCz5H4QFu8Jo9u5jOkAS458%2BZd2tKy%2BCY%2FYKAeAo0xk%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1752848971"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=sCz5H4QFu8Jo9u5jOkAS458%2BZd2tKy%2BCY%2FYKAeAo0xk%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1752848971"
+1 < Via: 1.1 heroku-router
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-Request-Id: 3f899145-ec6b-e5d5-bc83-ebf7632d25d9
+1 < X-Xss-Protection: 1; mode=block
+1 < Age: 3934
+1 < Cache-Control: max-age=14400
+1 < cf-cache-status: HIT
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 96130c06ded4342e-EZE
+1 < server-timing: cfL4;desc="?proto=TCP&rtt=99545&min_rtt=97484&rtt_var=40679&sent=7&recv=6&lost=0&retrans=0&sent_bytes=3106&recv_bytes=719&delivery_rate=37166&cwnd=252&unsent_bytes=0&cid=c75894993da774a2&ts=246&x=0"
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Tired of writing endless social media content? Let Content Caddy generate it for you."}}
+
+11:35:27.570 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1953
+1 < 200
+1 < Date: Fri, 18 Jul 2025 15:35:07 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 36
+1 < Connection: keep-alive
+1 < CF-RAY: 96130c0b48b71e90-EZE
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Ratelimit-Limit: 100
+1 < Ratelimit-Policy: 100;w=60
+1 < Ratelimit-Remaining: 94
+1 < Ratelimit-Reset: 60
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=AKB5fFeI7iw5quNTT0H%2FwjbuwhNHhHIGlB8BywsdDNY%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1752852907"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=AKB5fFeI7iw5quNTT0H%2FwjbuwhNHhHIGlB8BywsdDNY%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1752852907"
+1 < Via: 1.1 heroku-router
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-Request-Id: 822a4e56-bb72-d076-7518-f2b5325a2b81
+1 < X-Xss-Protection: 1; mode=block
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < server-timing: cfL4;desc="?proto=TCP&rtt=100388&min_rtt=100388&rtt_var=50194&sent=5&recv=7&lost=0&retrans=1&sent_bytes=219&recv_bytes=1054&delivery_rate=14065&cwnd=250&unsent_bytes=0&cid=f20b7cb325264030&ts=543&x=0"
+{"id":4,"token":"QpwL5tke4Pnpja7X4"}
+
+11:35:29.692 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 6 (5 remaining) src/test/java/apitests/reqres/tc007.feature
+11:35:29.850 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 6 (4 remaining) src/test/java/apitests/reqres/tc008.feature
+11:35:30.038 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 6 (3 remaining) src/test/java/apitests/reqres/tc009.feature
+11:35:30.162 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 6 (2 remaining) src/test/java/apitests/reqres/tc010.feature
+11:35:30.293 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 5 of 6 (1 remaining) src/test/java/apitests/reqres/tc011.feature
+11:35:31.382 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 4781
+1 < 200
+1 < Date: Fri, 18 Jul 2025 15:35:11 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"41e-bY3U72nulxuwNd/TmihMEHjLmek"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Ratelimit-Limit: 100
+1 < Ratelimit-Policy: 100;w=60
+1 < Ratelimit-Remaining: 92
+1 < Ratelimit-Reset: 56
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=4fPBp8Syz997UeI8u%2Fv3tiUY9PZfDbUA0jTKLxpLc%2Bo%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1752852908"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=4fPBp8Syz997UeI8u%2Fv3tiUY9PZfDbUA0jTKLxpLc%2Bo%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1752852908"
+1 < Via: 1.1 heroku-router
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-Request-Id: 3eefdd6d-6570-6191-c4c1-5570474a5382
+1 < X-Xss-Protection: 1; mode=block
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 96130c10ff5fb567-EZE
+1 < server-timing: cfL4;desc="?proto=TCP&rtt=99832&min_rtt=99832&rtt_var=49916&sent=4&recv=6&lost=0&retrans=1&sent_bytes=219&recv_bytes=973&delivery_rate=14143&cwnd=250&unsent_bytes=0&cid=e3da706a781e0ec9&ts=3573&x=0"
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Tired of writing endless social media content? Let Content Caddy generate it for you."}}
+
+11:35:31.470 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 6 of 6 (0 remaining) src/test/java/apitests/reqres/tc012.feature
