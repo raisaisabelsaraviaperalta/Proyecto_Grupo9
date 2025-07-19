@@ -6,7 +6,7 @@ Consolidar las habilidades técnicas y metodológicas en pruebas funcionales de 
 
 Stack de Tecnología:
 
--Postman:
+1.- Postman:
 
    *Herramienta gráfica para pruebas manuales de APIs REST.
    
@@ -16,7 +16,7 @@ Stack de Tecnología:
 
    
 
--Karate Syntax:
+2.- Karate Syntax:
    *Framework open-source para automatización de pruebas de APIs.
    
    *Utiliza una sintaxis sencilla basada en Gherkin, lo que facilita escribir pruebas legibles sin necesidad de conocimientos profundos de programación.
@@ -25,7 +25,7 @@ Stack de Tecnología:
 
    
 
--Karate Runner:
+3.- Karate Runner:
    *Componente encargado de ejecutar los archivos de prueba escritos con Karate.
    
    *Se puede integrar fácilmente con sistemas de CI/CD y herramientas como Maven o Gradle.
@@ -33,8 +33,7 @@ Stack de Tecnología:
    *Permite ejecutar múltiples escenarios de prueba de forma automática.
 
 
-
--Cucumber (Gherkin) Full Support:
+4.- Cucumber (Gherkin) Full Support:
    *Lenguaje estructurado usado para definir casos de prueba de forma clara y entendible por todos los miembros del equipo.
    
    *Karate extiende Gherkin para permitir automatización sin requerir Java explícito.
