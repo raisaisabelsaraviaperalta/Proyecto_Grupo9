@@ -14,6 +14,8 @@ Stack de Tecnología:
    
    *Ideal para pruebas exploratorias, pruebas funcionales iniciales y documentación de endpoints.
 
+   
+
 -Karate Syntax:
    *Framework open-source para automatización de pruebas de APIs.
    
@@ -21,12 +23,16 @@ Stack de Tecnología:
    
    *Permite combinar pruebas funcionales, validaciones de esquemas JSON, y pruebas de rendimiento.
 
+   
+
 -Karate Runner:
    *Componente encargado de ejecutar los archivos de prueba escritos con Karate.
    
    *Se puede integrar fácilmente con sistemas de CI/CD y herramientas como Maven o Gradle.
    
    *Permite ejecutar múltiples escenarios de prueba de forma automática.
+
+
 
 -Cucumber (Gherkin) Full Support:
    *Lenguaje estructurado usado para definir casos de prueba de forma clara y entendible por todos los miembros del equipo.
