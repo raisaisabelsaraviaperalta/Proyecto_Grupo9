@@ -1,4 +1,4 @@
-Feature: Obtener usuario con ID inválido
+Feature: Prueba Obtener usuario con ID negativo
  Background:
     * url baseUrl
 
