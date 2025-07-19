@@ -12,9 +12,11 @@ function fn() {
 
     var config = {
        env: env,
-       baseUrl: 'https://686df563c9090c495387bde6.mockapi.io/api/v1/',
-       user: 'juanito'
+       baseUrl: 'https://reqres.in/api/',
+       apiKey: 'reqres-free-v1'
     }
-
+    karate.configure('headers', { 'x-api-key': config.apiKey });
     return config;
 }
+
+    
